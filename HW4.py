@@ -1,6 +1,6 @@
 import numpy as np
 
-P = np.array([[0,0,0,0,0.2,0.1,0],
+"""P = np.array([[0,0,0,0,0.2,0.1,0],
               [0.3,0,0,0,0.3,0.1,0],
               [0,0.8,0,0,0.5,0,0],
               [0,0,0.6,0,0,0,0],
@@ -16,4 +16,6 @@ I = np.identity(r.size)
 
 v = np.linalg.inv(I-(gamma*P)) @ r
 
-print(v)
+print(v)"""
+
+print(6+0.8*(0.8*12+0.2*6))
